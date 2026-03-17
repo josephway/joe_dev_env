@@ -1,0 +1,53 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# Ghostty 推荐配置
+# 来源: 官方文档 + 社区最佳实践
+# 适用于: macOS + JetBrains Mono Nerd Font
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ── 字体配置 ───────────────────────────────────────────────────────────────
+font-family = JetBrains Mono Nerd Font
+font-size = 14
+font-thicken = true
+adjust-cell-height = 1
+
+# ── 主题配置 ───────────────────────────────────────────────────────────────
+# Catppuccin 系列: Latte(浅色), Frappe, Macchiato, Mocha(最深暗色)
+# 其他主题: TokyoNight, Dracula, Nord, Gruvbox Dark
+theme = Catppuccin Macchiato
+# theme = TokyoNight
+# theme = Dracula
+# theme = Nord
+
+# ── macOS 专属优化 ─────────────────────────────────────────────────────────
+macos-titlebar-style = tabs
+macos-window-shadow = true
+# macos-icon = official
+# quit-after-last-window-closed = false
+
+# ─── 窗口外观 ──────────────────────────────────────────────────────────────
+window-padding-x = 10
+window-padding-y = 10
+window-decoration = true
+window-theme = auto
+background-opacity = 0.95
+background-blur-radius = 20
+
+# ─── 光标配置 ──────────────────────────────────────────────────────────────
+cursor-style = block
+cursor-style-blink = false
+cursor-color = #ffcc00
+
+# ─── 滚动配置 ──────────────────────────────────────────────────────────────
+scrollback-limit = 1000000
+mouse-scroll-multiplier = 1.0
+
+# ─── 性能优化 ──────────────────────────────────────────────────────────────
+scrollbar = never
+
+# ─── 剪贴板 ────────────────────────────────────────────────────────────────
+copy-on-select = true
+confirm-close-surface = true
+
+# ─── Shell 集成 ────────────────────────────────────────────────────────────
+shell-integration = detect
+shell-integration-features = cursor,sudo,title
